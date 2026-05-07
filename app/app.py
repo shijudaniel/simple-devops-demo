@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     user_input = request.args.get("input")
     eval(user_input)
-    return "Unsafe Code"
+    return "Unsafe Code push to main"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
