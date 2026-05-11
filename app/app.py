@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "HELLO .._.. DevOps Demo App Running! AGAIN ...-5-..."
+    return "HELLO .._.. DevOps Demo App Running! AGAIN ...-6-..."
 
 
 if __name__ == "__main__":
